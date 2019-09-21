@@ -1,6 +1,6 @@
 var express = require('express');
 var imageController = require('./imageController');
-var upload = require('./cloudinaryUpload/multer');
+var upload = require('./cloudinaryUploads/multer');
 
 var router = express.Router();
 

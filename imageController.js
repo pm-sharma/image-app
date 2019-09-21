@@ -1,4 +1,4 @@
-var imageModel = require('./model');
+var imageModel = require('./models');
 var cloud = require('./cloudinaryConfig')
 
 
