@@ -7,6 +7,7 @@ exports.createApp = (req, res) => {
         var imageDetails = {
             imageName: req.body.imageName,
         }
+        console.log("Hello");
 
         imageModel.find({imageName: imageDetails.imageName}, (err, callback) => {
             if (err) {
