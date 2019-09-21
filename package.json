@@ -1,13 +1,13 @@
 {
-  "name": "cloudinary",
+  "name": "cloudi",
   "version": "1.0.0",
   "description": "cloudinary upload",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "node server.js"
+    "start": "node server.js"
   },
-  "author": "pmsharma",
+  "author": "chike",
   "license": "ISC",
   "dependencies": {
     "cloudinary": "^1.13.2",

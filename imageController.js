@@ -7,7 +7,6 @@ exports.createApp = (req, res) => {
         var imageDetails = {
             imageName: req.body.imageName,
         }
-        console.log("Hello");
 
         imageModel.find({imageName: imageDetails.imageName}, (err, callback) => {
             if (err) {
@@ -37,7 +36,7 @@ exports.createApp = (req, res) => {
                     }
                     
                         console.log('i reached here too')
-                        console.log("Hfkwjhrek",imageDetails.cloudImage)
+                        console.log(imageDetails.cloudImage)
                         
                         imageModel.create(imageDetails, (err, created)=> {
                         if(err){
@@ -52,6 +51,8 @@ exports.createApp = (req, res) => {
                             })
                         }
                     })
+                    
+                    
                 })
         
             }
