@@ -15,6 +15,7 @@ app.use('/uploads', express.static('uploads'))
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(bodyParser.json());
 
+
 // CONNECTING TO MONGOOSE DATABASE
 mongoose.connect('mongodb+srv://pmsharma:1234567890@image-app-pyhru.mongodb.net/test?retryWrites=true&w=majority', 
 {

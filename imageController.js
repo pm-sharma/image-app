@@ -37,7 +37,7 @@ exports.createApp = (req, res) => {
                     }
                     
                         console.log('i reached here too')
-                        console.log(imageDetails.cloudImage)
+                        console.log("Hfkwjhrek",imageDetails.cloudImage)
                         
                         imageModel.create(imageDetails, (err, created)=> {
                         if(err){
@@ -52,8 +52,6 @@ exports.createApp = (req, res) => {
                             })
                         }
                     })
-                    
-                    
                 })
         
             }
