@@ -1,9 +1,9 @@
 const cloudinary = require('cloudinary');
 
 cloudinary.config({ 
-    cloud_name: 'pmsharma', 
-    api_key: '137211845741169', 
-    api_secret: '3EBqd1t2fgNEOayJpXrR88U5BrY' 
+    cloud_name: 'ghost-1980-pm', 
+    api_key: '131886776331453', 
+    api_secret: 'tGRLm1lRTDR3v2CZyJNBVb_7zhE' 
   });
 
   // uploading the image to cloudinary
